@@ -112,35 +112,6 @@ header {
 
 /* Tip of the week */
 
-/*
-.image-tip-of-the-week {
-  position: relative;
-  width: 100%;
-  z-index: -1;
-}
-
-
-.h1-tip-of-the-week {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  padding: 50px; 
-
-}
-
-.p-tip-of-the-week {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  color: black; 
-
-}
-*/
-
-
-/* Tip of the week 2 */
 .flex-container-4 {
   position: relative;
   text-align:center;
@@ -205,6 +176,12 @@ header {
 
   .h2-left {
     padding-bottom: 1vw;
+    left: 40%;
+  }
+
+  .p-left {
+    font-size: 1.8vw;
+    right: 0;
   }
 
   .text-youtubability, .p-right, .centered-p {
