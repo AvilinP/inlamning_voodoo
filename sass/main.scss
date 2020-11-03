@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  body {
+    background-color: white;
+    font-family: Avenir, Verdana, Geneva, Tahoma, sans-serif; 
+    color: #494949; 
+    font-weight: 100;
+  }
+  
+  h2, h3 {
+    color: black;
+    font-weight: 900;
+  }
+  
+
+
+  
+@import "./header.scss";  
+@import "./youtubability.scss";  
+@import "./secondparagraph.scss";
+@import "./tipoftheweek.scss";
+@import "./footer.scss";
+@import "./mediaqueries.scss";
+
+  
+  
+  
+  
+  
+  

@@ -5,296 +5,203 @@
 
 body {
   background-color: white;
-  font-family: Avenir, Verdana, Geneva, Tahoma, sans-serif; 
-  color: #494949; 
-  font-weight: 100;
-}
+  font-family: Avenir, Verdana, Geneva, Tahoma, sans-serif;
+  color: #494949;
+  font-weight: 100; }
 
 h2, h3 {
   color: black;
-  font-weight: 900;
-}
+  font-weight: 900; }
 
 /* header */
-
 header {
   background-image: url(bilder/header.png);
   background-size: cover;
   background-position: center;
   width: auto;
-  height: 60vw; 
-}
+  height: 60vw; }
 
 .header-h1 {
   margin-top: 30px;
   padding-top: 10px;
   text-align: center;
-  font-size: 3vw; 
+  font-size: 3vw;
   color: black;
-  font-weight: 900;
-}
+  font-weight: 900; }
 
 /* Hey guys */
-
 .left-aligned {
   position: relative;
   margin-left: 100px;
-  margin-right: 100px; 
+  margin-right: 100px;
   margin-top: 10px;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 .h2-left {
   position: absolute;
   left: 50%;
   padding-bottom: 50px;
   transform: translate(-50%, -50%);
-  font-size: 4vw;
-
-}
+  font-size: 4vw; }
 
 .p-left {
   position: absolute;
   right: 25%;
   font-size: 1.5vw;
-  line-height: 1.5; 
-  text-align: right;
-}
-
+  line-height: 1.5;
+  text-align: right; }
 
 /* Youtubability */
-
 .flex-container {
   display: flex;
-  justify-content: center; 
-  margin: 9vw; 
-}
+  justify-content: center;
+  margin: 9vw; }
 
 .text-youtubability {
- font-size: 1.5vw;
- padding-left: 1vw;
- flex-wrap: wrap;
-}
-
-
-
-
+  font-size: 1.5vw;
+  padding-left: 1vw;
+  flex-wrap: wrap; }
 
 /* Grey section */
 .grey-area {
-  background-color: rgb(73, 70, 70);
-  height: 400px;
-}
-
+  background-color: #494646;
+  height: 400px; }
 
 /* Flex container 2 with second text and phone */
-
 .flex-container2 {
   display: flex;
   justify-content: center;
-  margin: 9vw; 
-}
-
-
+  margin: 9vw; }
 
 .text-right {
   font-size: 1.5vw;
   font-weight: 100;
   padding-top: 4vw;
-  text-align: right;
-}
-
+  text-align: right; }
 
 /* Centered paragraf */
-
 .centered-p {
   padding-left: 9.5vw;
   padding-right: 9.5vw;
   padding-bottom: 2vw;
   text-align: left;
-  font-size: 1.5vw;
-
-}
-
-
+  font-size: 1.5vw; }
 
 /* Tip of the week */
-
 .flex-container3 {
   position: relative;
-  text-align:center;
-  margin-bottom: 0;
-  
- }
+  text-align: center;
+  margin-bottom: 0; }
 
 .section-4 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: 0.5vw;
+  margin: 0.5vw; }
 
-}
-  
 .tipoftheweek {
   width: 100%;
-  height:auto; 
-  }
+  height: auto; }
 
 .h3-tip {
-    font-size: 2.5vw;
-    font-weight: 900;
-  }
+  font-size: 2.5vw;
+  font-weight: 900; }
 
 .p-tip {
-  font-size: 1.5vw;
-}
-
+  font-size: 1.5vw; }
 
 /* Footer */
-
 .footer {
   background-color: black;
   color: white;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  height: 20rem;
-}
+  height: 20rem; }
 
 .footer-left, .footer-right {
   margin: 2rem;
   margin-left: 14vw;
-  margin-right: 14vw;
-}
+  margin-right: 14vw; }
 
 .footer-left {
-  text-align: left;
-}
+  text-align: left; }
 
 .footer-right {
   font-style: italic;
-  text-align: right;
-}
+  text-align: right; }
 
 .h2-livestream {
-  color:white;
+  color: white; }
 
-}
+/* Responsive for iPad Pro */
+@media screen and (max-width: 1024px) {
+  .footer-left, .footer-right {
+    margin: 2rem;
+    margin-left: 10vw; } }
 
+/* Responsive for iPad */
+@media screen and (max-width: 768px) {
+  .footer-left, .footer-right {
+    margin: 2rem; } }
 
-
-/* Responsive up to 700px - iPad Pro */ 
-
-@media screen and (max-width: 700px) {
-
+/* Responsive for iPhone X, 8, 7, 6, 5, SE; Pixel 2, Pixel 2 XL; Galaxy S5; Moto G4, Surface Duo */
+@media screen and (max-width: 600px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+  .phone-1 {
+    height: 100%;
+    width: 100%; }
+  .h2-left {
+    padding-bottom: 1vw;
+    left: 40%; }
+  .p-left {
+    font-size: 1.8vw;
+    right: 0; }
+  .text-youtubability, .p-right, .centered-p {
+    font-size: 2vw; }
+  .p-right {
+    text-align: left; }
+  .flex-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+  .phone-2 {
+    height: 100%;
+    width: 100%; }
+  .h3-tip {
+    font-size: 3vw; }
+  .p-tip {
+    font-size: 2vw; }
+  .section-4 {
+    left: 50%;
+    margin: 0.5vw; }
   .footer {
     flex-direction: column;
     justify-content: center;
     font-size: 2vw;
-  }
-
+    height: 15rem; }
   .footer-right {
-    text-align: left;
-  }
-
+    text-align: left; }
   .footer-left, .footer-right {
     margin-bottom: 0.2rem;
-    margin-top: 0.2rem;
-  }
-
-}
-
-
-
-/* Responsive up to 600px - mobile */
-
-@media screen and (max-width: 600px) {
-
-  .flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-content: center;
-  }
-
-  .phone-1 {
-    height: 100%;
-    width: 100%;
-  }
-
-  .h2-left {
-    padding-bottom: 1vw;
-    left: 40%;
-  }
-
-  .p-left {
-    font-size: 1.8vw;
-    right: 0;
-  }
-
-  .text-youtubability, .p-right, .centered-p {
-    font-size: 2vw;
-  }
-
-  .p-right {
-    text-align: left;
-  }
-
-  .flex-container2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-content: center;
-  }
-
-  .phone-2 {
-    height: 100%;
-    width: 100%;
-  }
-
-  .h3-tip {
-    font-size: 3vw;
-  }
-
-  .p-tip {
-    font-size: 2vw;
-  }
-
-  .section-4 {
-    left: 50%;
-    margin: 0.5vw;
-    
-  }
- 
-}
+    margin-top: 0.2rem; } }
 
 /* Responsive up to 280px - Galaxy Fold */
-
-@media screen and (max-width: 290px)  {
-
+@media screen and (max-width: 290px) {
   .header-h1 {
-    margin-top: 10px;
-  }
-
+    margin-top: 10px; }
   .left-aligned {
     margin-top: 0;
     margin-left: 0;
-    margin-right: 50px;
-  }
-
+    margin-right: 50px; }
   .h2-left {
     padding-bottom: 0vw;
-    left: 70%;
-  }  
-
+    left: 70%; }
   .footer {
-    height: 10rem;
-  }
-
-}
-
-
-
-
-
+    height: 10rem; } }

@@ -1,0 +1,32 @@
+  /* Footer */
+
+  .footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 20rem;
+  }
+  
+  .footer-left, .footer-right {
+    margin: 2rem;
+    margin-left: 14vw;
+    margin-right: 14vw;
+  }
+  
+  .footer-left {
+    text-align: left;
+  }
+  
+  .footer-right {
+    font-style: italic;
+    text-align: right;
+  }
+  
+  .h2-livestream {
+    color:white;
+  
+  }
+
+  

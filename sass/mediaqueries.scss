@@ -1,0 +1,127 @@
+   
+   /* Responsive for iPad Pro */
+
+    @media screen and (max-width: 1024px) { 
+
+      .footer-left, .footer-right { 
+        margin: 2rem;
+        margin-left: 10vw; 
+      }
+
+    }
+  
+  
+  /* Responsive for iPad */
+
+  @media screen and (max-width: 768px) { 
+
+    .footer-left, .footer-right {
+      margin: 2rem;
+    }
+
+  }
+    
+  
+  /* Responsive for iPhone X, 8, 7, 6, 5, SE; Pixel 2, Pixel 2 XL; Galaxy S5; Moto G4, Surface Duo */
+  
+  @media screen and (max-width: 600px) {
+  
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-content: center;
+    }
+  
+    .phone-1 {
+      height: 100%;
+      width: 100%;
+    }
+  
+    .h2-left {
+      padding-bottom: 1vw;
+      left: 40%;
+    }
+  
+    .p-left {
+      font-size: 1.8vw;
+      right: 0;
+    }
+  
+    .text-youtubability, .p-right, .centered-p {
+      font-size: 2vw;
+    }
+  
+    .p-right {
+      text-align: left;
+    }
+  
+    .flex-container2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-content: center;
+    }
+  
+    .phone-2 {
+      height: 100%;
+      width: 100%;
+    }
+  
+    .h3-tip {
+      font-size: 3vw;
+    }
+  
+    .p-tip {
+      font-size: 2vw;
+    }
+  
+    .section-4 {
+      left: 50%;
+      margin: 0.5vw;
+      
+    }
+   
+    .footer {
+      flex-direction: column;
+      justify-content: center;
+      font-size: 2vw;
+      height: 15rem;
+    }
+  
+    .footer-right {
+      text-align: left;
+    }
+  
+    .footer-left, .footer-right {
+      margin-bottom: 0.2rem;
+      margin-top: 0.2rem;
+    }
+
+
+  }
+  
+  /* Responsive up to 280px - Galaxy Fold */
+  
+  @media screen and (max-width: 290px)  {
+  
+    .header-h1 {
+      margin-top: 10px;
+    }
+  
+    .left-aligned {
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 50px;
+    }
+  
+    .h2-left {
+      padding-bottom: 0vw;
+      left: 70%;
+    }  
+  
+    .footer {
+      height: 10rem;
+    }
+  
+  }
